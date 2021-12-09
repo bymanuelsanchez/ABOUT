@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+  }
+  
+  .body {
+    max-width: 420px;
+    margin: 0 auto;
+    background-color: #6f2205;
+    height: 100vh;
+    border: 2px solid black;
+    overflow: hidden; /*Elimina esto si queires ver la capa entera.*/
+  }
+  
+  .sections {
+    width: 300%; /* 3 secciones, cada sección copua el 100% */
+    display: flex;
+    transition: transform .5s ease-in;
+  }
+  .scroll-section {
+    padding: 12px;
+    height: 100vh;
+  }
+  .yellow {
+    background-color: #eacc97;
+  }
+  .blue {
+    background-color: Aquamarine;
+  }
+  .grey {
+    background-color: #dee8ec;
+  }
+  
+  /* Checkboxes function */
+  .section1:checked ~ .sections{
+    transform: translateX(0);
+  }
+  .section2:checked ~ .sections{
+    transform: translateX(-33.3333%);
+  }
+  .section3:checked ~ .sections{
+    transform: translateX(-66.6666%);
+  }
+  
+  
