@@ -7,6 +7,7 @@
   --rojo: #FF7075;
   --verde: #7AC943;
   --naranja: #FF931E;
+  --gris: #BDCCD4;
 }
 
 /*------TIEMPOS------*/
@@ -65,14 +66,6 @@ p.intro{
   color: var(--blanco);
 }
 
-p.contador.intro{
-  color: var(--blanco);
-}
-
-p.contador.contact{
-  color: var(--blanco);
-}
-
 a.contact{
   color: var(--blanco);
   text-decoration: none;
@@ -86,6 +79,21 @@ a{
   transition: var(--tran-time);
 }
 
+.number{
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 600;
+}
+
+/*nav*/
+input.nav{
+  display: none;
+}
+label{
+  transition: var(--tran-time);
+  color: var(--blanco);
+  font-size: 60px;
+}
+
 /*------HOVERS------*/
 
 /*web*/
@@ -94,6 +102,26 @@ h3.web:hover{
   font-size: 110px;
   line-height: 90px;
   font-kerning: 100px;
+}
+
+/*nav*/
+label.section1:hover{
+  color: var(--gris);
+}
+label.section2:hover{
+  color: var(--azul);
+}
+label.section3:hover{
+  color: var(--rojo);
+}
+label.section4:hover{
+  color: var(--verde);
+}
+label.section5:hover{
+  color: var(--naranja);
+}
+label.section6:hover{
+  color: var(--gris);
 }
 
 /*graphic*/
@@ -118,37 +146,62 @@ a.contact.call-me:hover{
   color: var(--naranja);
 }
 
+/*------CHECKED------*/
+
+/*nav*/
+input.section1[type="checkbox"]:checked{
+  color: var(--gris);
+}
+input.section2[type="checkbox"]:checked{
+  color: var(--azul);
+}
+input.section3[type="checkbox"]:checked{
+  color: var(--rojo);
+}
+input.section4[type="checkbox"]:checked{
+  color: var(--verde);
+}
+input.section5[type="checkbox"]:checked{
+  color: var(--naranja);
+}
+input.section6[type="checkbox"]:checked{
+  color: var(--gris);
+}
 
 /*------POSICIONAMIENTO------*/
 
-/*barra*/
+/*nav*/
+input, h1.header{
+  display:flex;
+  align-items: center;
+}
+
+/*nav items*/
 .nav{
   position: absolute;
+  right: 30px;
 }
-input.section1{
+label.section1{
   right: 230px;
 }
-input.section2{
+label.section2{
   right: 190px;
 }
-input.section3{
+label.section3{
   right: 150px;
 }
-input.section4{
+label.section4{
   right: 110px;
 }
-input.section5{
+label.section5{
   right: 70px;
 }
-input.section6{
+label.section6{
   right: 30px;
 }
 h1.header{
   margin-left: 30px;
 }
-
-/*contador de pagina*/
-
 
 /*intro*/
 img.intro{
