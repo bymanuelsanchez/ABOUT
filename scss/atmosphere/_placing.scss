@@ -1,44 +1,170 @@
-//-----> $PLACING
+//-----> $PLACING MÓVIL
 
+//-----> NAV <-----\\
 /*nav*/
 input, h1.header{
-    display:flex;
-    align-items: center;
-  }
-  
-  /*nav items*/
-  .nav{
-    position: absolute;
-    right: 30px;
-  }
-  label.section1{
-    right: 230px;
-  }
-  label.section2{
-    right: 190px;
-  }
-  label.section3{
-    right: 150px;
-  }
-  label.section4{
-    right: 110px;
-  }
-  label.section5{
-    right: 70px;
-  }
-  label.section6{
-    right: 30px;
-  }
-  h1.header{
-    margin-left: 30px;
-  }
-  
-  /*intro*/
-  img.intro{
-    width: 75%;
-  }
-  
-  /*music*/
-  img.music{
-    width: 66.666%;
-  }
+  display:flex;
+  align-items: center;
+} 
+/*nav items*/
+.nav{
+  position: absolute;
+  right: 30px;
+}
+label.section1{
+  right: 230px;
+}
+label.section2{
+  right: 190px;
+}
+label.section3{
+  right: 150px;
+}
+label.section4{
+  right: 110px;
+}
+label.section5{
+  right: 70px;
+}
+label.section6{
+  right: 30px;
+}
+h1.header{
+  margin-left: 30px;
+}
+
+//-----> INTRO <-----\\
+div.foto-intro{
+  position: relative;
+  width: 70%;
+  height: 40%;
+  top: -10%;
+  left: 10%;
+}
+h2.intro{
+  position: relative;
+  top: -2%;
+  left: 4%;
+  z-index: 100;
+  background-color: transparent;
+}
+div.intro{
+  position: relative;
+  top: -18%;
+  left: 14%;
+  z-index: 100;
+  background-color: transparent;
+}
+p.intro{
+  background-color: transparent;
+}
+
+
+//-----> WEB <-----\\
+h3.web{
+  position: relative;
+  top: 15%;
+  left: 5%;
+  background-color: transparent;
+}
+p.web{
+  position: relative;
+  max-width: 70%;
+  top: 13.5%;
+  left: 20%;
+  background-color: transparent;
+}
+a.web{
+  position: relative;
+  top: 15%;
+  left: 20%;
+  background-color: transparent;
+}
+
+//-----> GRAPHIC <-----\\
+h3.graphic{
+  position: relative;
+  top: 5%;
+  left: 30%;
+  background-color: transparent;
+}
+p.graphic{
+  position: relative;
+  max-width: 70%;
+  top: 3.5%;
+  left: 5%;
+  background-color: transparent;
+}
+a.graphic{
+  position: relative;
+  top: 5%;
+  left: 5%;
+  background-color: transparent;
+}
+
+//-----> MUSIC <-----\\
+div.foto-music{
+  position: relative;
+  width: 85%;
+  height: 50%;
+  top: 3%;
+  left: -2%;
+}
+h3.music{
+  position: relative;
+  top: -4.5%;
+  left: 33%;
+  z-index: 100;
+  background-color: transparent;
+}
+a.music{
+  position: relative;
+  top: -7.5%;
+  left: 33%;
+  z-index: 100;
+  background-color: transparent;
+}
+
+
+//-----> STUDIES <-----\\
+h4.skills{
+  position: relative;
+  top: 5%;
+  left: 19%;
+  background-color: transparent;
+}
+div.skills{
+  position: relative;
+  max-width: 90%;
+  top: 5%;
+  left: 8.5%;
+  background-color: transparent;
+}
+h4.studies{
+  position: relative;
+  top: 10%;
+  left: 19%;
+  background-color: transparent;
+}
+div.studies{
+  position: relative;
+  max-width: 90%;
+  top: 10%;
+  left: 8.5%;
+  background-color: transparent;
+}
+
+//-----> CONTACT <-----\\
+h3.contact{
+  position: relative;
+  top: 0%;
+  left: 7%;
+  background-color: transparent;
+}
+ul.contact{
+  padding-left: 0%;
+  position: relative;
+  top: 0%;
+  left: 7%;
+  background-color: transparent;
+}

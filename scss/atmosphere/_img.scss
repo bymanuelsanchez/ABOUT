@@ -1,0 +1,23 @@
+//-----> INTRO
+
+div.foto-intro{
+    background-color: $gris;
+    background-image: url(/recursos/yo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+//-----> MUSIC
+
+div.foto-music{
+    background-color: $gris;
+    background-image: url(/recursos/music.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}

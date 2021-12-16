@@ -32,7 +32,7 @@ h3.web:hover{
   
 /*check outs*/
 a:hover{
-  color: var(--blanco);
+  color: $blanco;
 }
    
 /*contact*/
@@ -49,24 +49,26 @@ a.contact.call-me:hover{
   color: $naranja;
 }
   
+
+
 //-----> $CHECKED-STYLE
   
 /*nav*/
-input.section1[type="checkbox"]:checked{
+.section1:checked{
   color: $gris;
   }
-input.section2[type="checkbox"]:checked{
+.section2:checked{
   color: $azul;
   }
-input.section3[type="checkbox"]:checked{
+.section3:checked{
   color: $rojo;
   }
-input.section4[type="checkbox"]:checked{
+.section4:checked{
   color: $verde;
   }
-input.section5[type="checkbox"]:checked{
+.section5:checked{
   color: $naranja;
   }
-input.section6[type="checkbox"]:checked{
+.section6:checked{
   color: $gris;
 }

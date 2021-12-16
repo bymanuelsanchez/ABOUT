@@ -114,7 +114,7 @@ h3.web:hover {
 /*graphic*/
 /*check outs*/
 a:hover {
-  color: var(--blanco);
+  color: white;
 }
 
 /*contact*/
@@ -135,28 +135,48 @@ a.contact.call-me:hover {
 }
 
 /*nav*/
-input.section1[type=checkbox]:checked {
+.section1:checked {
   color: #BDCCD4;
 }
 
-input.section2[type=checkbox]:checked {
+.section2:checked {
   color: #3FA9F5;
 }
 
-input.section3[type=checkbox]:checked {
+.section3:checked {
   color: #FF7075;
 }
 
-input.section4[type=checkbox]:checked {
+.section4:checked {
   color: #7AC943;
 }
 
-input.section5[type=checkbox]:checked {
+.section5:checked {
   color: #FF931E;
 }
 
-input.section6[type=checkbox]:checked {
+.section6:checked {
   color: #BDCCD4;
+}
+
+div.foto-intro {
+  background-color: #BDCCD4;
+  background-image: url(/recursos/yo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.foto-music {
+  background-color: #BDCCD4;
+  background-image: url(/recursos/music.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*nav*/
@@ -203,14 +223,145 @@ h1.header {
   margin-left: 30px;
 }
 
-/*intro*/
-img.intro {
-  width: 75%;
+div.foto-intro {
+  position: relative;
+  width: 70%;
+  height: 40%;
+  top: -10%;
+  left: 10%;
 }
 
-/*music*/
-img.music {
-  width: 66.666%;
+h2.intro {
+  position: relative;
+  top: -2%;
+  left: 4%;
+  z-index: 100;
+  background-color: transparent;
+}
+
+div.intro {
+  position: relative;
+  top: -18%;
+  left: 14%;
+  z-index: 100;
+  background-color: transparent;
+}
+
+p.intro {
+  background-color: transparent;
+}
+
+h3.web {
+  position: relative;
+  top: 15%;
+  left: 5%;
+  background-color: transparent;
+}
+
+p.web {
+  position: relative;
+  max-width: 70%;
+  top: 13.5%;
+  left: 20%;
+  background-color: transparent;
+}
+
+a.web {
+  position: relative;
+  top: 15%;
+  left: 20%;
+  background-color: transparent;
+}
+
+h3.graphic {
+  position: relative;
+  top: 5%;
+  left: 30%;
+  background-color: transparent;
+}
+
+p.graphic {
+  position: relative;
+  max-width: 70%;
+  top: 3.5%;
+  left: 5%;
+  background-color: transparent;
+}
+
+a.graphic {
+  position: relative;
+  top: 5%;
+  left: 5%;
+  background-color: transparent;
+}
+
+div.foto-music {
+  position: relative;
+  width: 85%;
+  height: 50%;
+  top: 3%;
+  left: -2%;
+}
+
+h3.music {
+  position: relative;
+  top: -4.5%;
+  left: 33%;
+  z-index: 100;
+  background-color: transparent;
+}
+
+a.music {
+  position: relative;
+  top: -7.5%;
+  left: 33%;
+  z-index: 100;
+  background-color: transparent;
+}
+
+h4.skills {
+  position: relative;
+  top: 5%;
+  left: 19%;
+  background-color: transparent;
+}
+
+div.skills {
+  position: relative;
+  max-width: 90%;
+  top: 5%;
+  left: 8.5%;
+  background-color: transparent;
+}
+
+h4.studies {
+  position: relative;
+  top: 10%;
+  left: 19%;
+  background-color: transparent;
+}
+
+div.studies {
+  position: relative;
+  max-width: 90%;
+  top: 10%;
+  left: 8.5%;
+  background-color: transparent;
+}
+
+h3.contact {
+  position: relative;
+  top: 0%;
+  left: 7%;
+  background-color: transparent;
+}
+
+ul.contact {
+  padding-left: 0%;
+  position: relative;
+  top: 0%;
+  left: 7%;
+  background-color: transparent;
 }
 
 body {
