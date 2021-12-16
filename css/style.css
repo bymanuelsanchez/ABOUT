@@ -1,0 +1,309 @@
+@charset "UTF-8";
+html {
+  font-family: "Archivo", sans-serif;
+}
+
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 140px;
+  line-height: 140px;
+}
+
+h3 {
+  color: black;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+h3.contact {
+  color: white;
+}
+
+h4 {
+  color: black;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+p {
+  color: black;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+p.intro {
+  color: white;
+}
+
+a.contact {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.number {
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 600;
+}
+
+/*nav*/
+input.nav {
+  display: none;
+}
+
+label {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: white;
+  font-size: 60px;
+}
+
+/*nav*/
+label.section1:hover {
+  color: #BDCCD4;
+}
+
+label.section2:hover {
+  color: #3FA9F5;
+}
+
+label.section3:hover {
+  color: #FF7075;
+}
+
+label.section4:hover {
+  color: #7AC943;
+}
+
+label.section5:hover {
+  color: #FF931E;
+}
+
+label.section6:hover {
+  color: #BDCCD4;
+}
+
+/*web*/
+h3.web:hover {
+  font-family: "VT323";
+  font-size: 110px;
+  line-height: 90px;
+  -webkit-font-kerning: 100px;
+          font-kerning: 100px;
+}
+
+/*graphic*/
+/*check outs*/
+a:hover {
+  color: var(--blanco);
+}
+
+/*contact*/
+a.contact.mail:hover {
+  color: #3FA9F5;
+}
+
+a.contact.behance:hover {
+  color: #FF7075;
+}
+
+a.contact.instagram:hover {
+  color: #7AC943;
+}
+
+a.contact.call-me:hover {
+  color: #FF931E;
+}
+
+/*nav*/
+input.section1[type=checkbox]:checked {
+  color: #BDCCD4;
+}
+
+input.section2[type=checkbox]:checked {
+  color: #3FA9F5;
+}
+
+input.section3[type=checkbox]:checked {
+  color: #FF7075;
+}
+
+input.section4[type=checkbox]:checked {
+  color: #7AC943;
+}
+
+input.section5[type=checkbox]:checked {
+  color: #FF931E;
+}
+
+input.section6[type=checkbox]:checked {
+  color: #BDCCD4;
+}
+
+/*nav*/
+input, h1.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*nav items*/
+.nav {
+  position: absolute;
+  right: 30px;
+}
+
+label.section1 {
+  right: 230px;
+}
+
+label.section2 {
+  right: 190px;
+}
+
+label.section3 {
+  right: 150px;
+}
+
+label.section4 {
+  right: 110px;
+}
+
+label.section5 {
+  right: 70px;
+}
+
+label.section6 {
+  right: 30px;
+}
+
+h1.header {
+  margin-left: 30px;
+}
+
+/*intro*/
+img.intro {
+  width: 75%;
+}
+
+/*music*/
+img.music {
+  width: 66.666%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+}
+
+.body {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  height: 100vh;
+  border: 2px solid black;
+  overflow: hidden;
+  /*Elimina esto si queires ver la capa entera.*/
+}
+
+.sections {
+  width: 600%;
+  /* 6 secciones, cada sección copua el 100% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+.scroll-section {
+  padding: 12px;
+  height: 120vh;
+  width: 100%;
+}
+
+.intro {
+  background-color: black;
+}
+
+.web {
+  background-color: #3FA9F5;
+}
+
+.graphic {
+  background-color: #FF7075;
+}
+
+.music {
+  background-color: #7AC943;
+}
+
+.studies {
+  background-color: #FF931E;
+}
+
+.contact {
+  background-color: black;
+}
+
+/* Checkboxes function */
+.section1:checked ~ .sections {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.section2:checked ~ .sections {
+  -webkit-transform: translateX(-16.6666%);
+          transform: translateX(-16.6666%);
+}
+
+.section3:checked ~ .sections {
+  -webkit-transform: translateX(-33.3332%);
+          transform: translateX(-33.3332%);
+}
+
+.section4:checked ~ .sections {
+  -webkit-transform: translateX(-49.9998%);
+          transform: translateX(-49.9998%);
+}
+
+.section5:checked ~ .sections {
+  -webkit-transform: translateX(-66.6664%);
+          transform: translateX(-66.6664%);
+}
+
+.section6:checked ~ .sections {
+  -webkit-transform: translateX(-83.333%);
+          transform: translateX(-83.333%);
+}

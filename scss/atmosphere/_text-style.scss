@@ -1,0 +1,77 @@
+//-----> $TEXT-STYLE
+
+html{
+    font-family: 'Archivo', sans-serif;
+  }
+  
+  h1{
+    color: $blanco;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+  }
+  
+  
+  h2{
+    color: $blanco;
+    font-weight: 500;
+    font-size: 140px;
+    line-height: 140px;
+  }
+  
+  h3{
+    color: $negro;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 100px;
+  }
+  
+  h3.contact{
+    color: $blanco;
+  }
+  
+  h4{
+    color: $negro;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+  }
+  
+  p{
+    color: $negro;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  
+  p.intro{
+    color: $blanco;
+  }
+  
+  a.contact{
+    color: $blanco;
+    text-decoration: none;
+  }
+  
+  a{
+    color: $negro;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    transition: $tran-time;
+  }
+  
+  .number{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 600;
+  }
+  
+  /*nav*/
+  input.nav{
+    display: none;
+  }
+  label{
+    transition: $tran-time;
+    color: $blanco;
+    font-size: 60px;
+  }

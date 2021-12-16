@@ -1,0 +1,72 @@
+//-----> $HOVER-STYLE
+
+/*nav*/
+label.section1:hover{
+  color: $gris;
+}
+label.section2:hover{
+  color: $azul;
+}
+label.section3:hover{
+  color: $rojo;
+}
+label.section4:hover{
+  color: $verde;
+}
+label.section5:hover{
+  color: $naranja;
+}
+label.section6:hover{
+  color: $gris;
+}
+
+/*web*/
+h3.web:hover{
+  font-family: 'VT323';
+  font-size: 110px;
+  line-height: 90px;
+  font-kerning: 100px;
+}
+
+/*graphic*/
+  
+/*check outs*/
+a:hover{
+  color: var(--blanco);
+}
+   
+/*contact*/
+a.contact.mail:hover{
+  color: $azul;
+}
+a.contact.behance:hover{
+  color: $rojo;
+}
+a.contact.instagram:hover{
+  color: $verde;
+}
+a.contact.call-me:hover{
+  color: $naranja;
+}
+  
+//-----> $CHECKED-STYLE
+  
+/*nav*/
+input.section1[type="checkbox"]:checked{
+  color: $gris;
+  }
+input.section2[type="checkbox"]:checked{
+  color: $azul;
+  }
+input.section3[type="checkbox"]:checked{
+  color: $rojo;
+  }
+input.section4[type="checkbox"]:checked{
+  color: $verde;
+  }
+input.section5[type="checkbox"]:checked{
+  color: $naranja;
+  }
+input.section6[type="checkbox"]:checked{
+  color: $gris;
+}

@@ -1,0 +1,75 @@
+//-----> $CHECKBOX-OPERATION
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: $negro;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+  }
+  
+  .body {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: $negro;
+    height: 100vh;
+    border: 2px solid black;
+    overflow: hidden; /*Elimina esto si queires ver la capa entera.*/
+  }
+  
+  .sections {
+    width: 600%; /* 6 secciones, cada sección copua el 100% */
+    display: flex;
+    transition: transform .5s ease-in-out;
+  }
+  .scroll-section {
+    padding: 12px;
+    height: 120vh;
+    width: 100%;
+  }
+
+
+  .intro {
+    background-color: $negro;
+  }
+  .web {
+    background-color: $azul;
+  }
+  .graphic {
+    background-color: $rojo;
+  }
+
+  .music {
+    background-color: $verde;
+  }
+
+  .studies {
+    background-color: $naranja;
+  }
+
+  .contact {
+    background-color: $negro;
+  }
+  
+  /* Checkboxes function */
+  .section1:checked ~ .sections{
+    transform: translateX(0);
+  }
+  .section2:checked ~ .sections{
+    transform: translateX(-16.6666%);
+  }
+  .section3:checked ~ .sections{
+    transform: translateX(-33.3332%);
+  }
+  .section4:checked ~ .sections{
+    transform: translateX(-49.9998%);
+  }
+  .section5:checked ~ .sections{
+    transform: translateX(-66.6664%);
+  }
+  .section6:checked ~ .sections{
+    transform: translateX(-83.3330%);
+  }

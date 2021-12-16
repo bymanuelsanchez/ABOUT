@@ -1,0 +1,44 @@
+//-----> $PLACING
+
+/*nav*/
+input, h1.header{
+    display:flex;
+    align-items: center;
+  }
+  
+  /*nav items*/
+  .nav{
+    position: absolute;
+    right: 30px;
+  }
+  label.section1{
+    right: 230px;
+  }
+  label.section2{
+    right: 190px;
+  }
+  label.section3{
+    right: 150px;
+  }
+  label.section4{
+    right: 110px;
+  }
+  label.section5{
+    right: 70px;
+  }
+  label.section6{
+    right: 30px;
+  }
+  h1.header{
+    margin-left: 30px;
+  }
+  
+  /*intro*/
+  img.intro{
+    width: 75%;
+  }
+  
+  /*music*/
+  img.music{
+    width: 66.666%;
+  }
