@@ -34,13 +34,6 @@ h1.header{
 }
 
 //-----> INTRO <-----\\
-div.foto-intro{
-  position: relative;
-  width: 70%;
-  height: 40%;
-  top: -10%;
-  left: 10%;
-}
 h2.intro{
   position: relative;
   top: -2%;
@@ -50,13 +43,30 @@ h2.intro{
 }
 div.intro{
   position: relative;
-  top: -18%;
+  top: 20%;
   left: 14%;
   z-index: 100;
   background-color: transparent;
 }
 p.intro{
   background-color: transparent;
+}
+div.foto-intro{
+  position: relative;
+  width: 70%;
+  height: 40%;
+  top: -28%;
+  left: 10%;
+}
+div.block-intro{
+  position: relative;
+  width: 500px;
+  height: 40px;
+  background-color: $negro;
+  top: -1850px;
+}
+p.intro{
+  padding-left: 1.5%;
 }
 
 
@@ -67,7 +77,7 @@ h3.web{
   left: 5%;
   background-color: transparent;
 }
-p.web{
+div.web{
   position: relative;
   max-width: 70%;
   top: 13.5%;
@@ -88,7 +98,7 @@ h3.graphic{
   left: 30%;
   background-color: transparent;
 }
-p.graphic{
+div.graphic{
   position: relative;
   max-width: 70%;
   top: 3.5%;
@@ -167,4 +177,92 @@ ul.contact{
   top: 0%;
   left: 7%;
   background-color: transparent;
+}
+
+
+
+
+
+@media all and (min-width: 1100px){
+  
+  //-----> INTRO <-----\\
+  h2.intro{
+    top: -100px;
+    left: 10%;
+  }
+  div.intro{
+    top: -200px;
+    left: 35vw;
+  }
+  div.foto-intro{
+    width: 500px;
+    height: 600px;
+    top: -750px;
+    left: 20vw;
+  }
+  div.block-intro{
+    position: relative;
+    width: 1100px;
+    height: 40px;
+    background-color: $negro;
+    top: -1425px;
+  }
+  p.intro{
+    padding-left: .8%;
+  }
+
+  //-----> WEB <-----\\
+  h3.web{
+    top: -50px;
+    left: 15vw;
+  }
+  div.web{
+    top: -100px;
+    left: 50vw;
+  }
+  a.web{
+    top: -100px;
+    left: 50vw;
+  }
+
+  //-----> GRAPHIC <-----\\
+  h3.graphic{
+    top: -50px;
+    left: 15vw;
+  }
+  div.graphic{
+    top: -100px;
+    left: 20vw;
+  }
+  a.graphic{
+    top: -100px;
+    left: 20vw;
+  }
+
+  //-----> MUSIC <-----\\
+  div.foto-music{
+    width: 50vw;
+    height: 120vh;
+    top: -10vw;
+    left: -24.9vw;
+  }
+  h3.music{
+    top: -90vh;
+    left: 43vw;
+  }
+  a.music{
+    top: -100vh;
+    left: 43vw;
+  }
+
+  //-----> CONTACT <-----\\
+h3.contact{
+  top: -10vh;
+  left: 10vw;
+}
+ul.contact{
+  padding-left: 0%;
+  top: -16vh;
+  left: 10vw;
+}
 }

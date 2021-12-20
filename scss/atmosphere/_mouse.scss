@@ -20,6 +20,12 @@ label.section6:hover{
   color: $gris;
 }
 
+/*intro*/
+a.intro:hover{
+  background-color: $blanco;
+  color: $negro;
+}
+
 /*web*/
 h3.web:hover{
   font-family: 'VT323';
@@ -31,7 +37,7 @@ h3.web:hover{
 /*graphic*/
   
 /*check outs*/
-a:hover{
+a.check:hover{
   color: $blanco;
 }
    
@@ -71,4 +77,12 @@ a.contact.call-me:hover{
   }
 .section6:checked{
   color: $gris;
+}
+
+
+//-----> $CURSOR
+
+/*web*/
+a.web:hover {
+  cursor: url("/recursos/yo.jpeg"), auto;
 }

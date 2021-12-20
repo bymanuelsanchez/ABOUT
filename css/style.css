@@ -54,10 +54,31 @@ a.contact {
 a {
   color: black;
   font-weight: 400;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 60px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+a.contact {
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+a.intro {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 100px;
 }
 
 .number {
@@ -77,6 +98,38 @@ label {
   font-size: 60px;
 }
 
+@media all and (min-width: 1100px) {
+  a.check {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  h2 {
+    font-size: 160px;
+    line-height: 160px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  a.intro {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  p.web {
+    width: 530px;
+  }
+
+  p.graphic {
+    width: 530px;
+  }
+}
 /*nav*/
 label.section1:hover {
   color: #BDCCD4;
@@ -102,6 +155,12 @@ label.section6:hover {
   color: #BDCCD4;
 }
 
+/*intro*/
+a.intro:hover {
+  background-color: white;
+  color: black;
+}
+
 /*web*/
 h3.web:hover {
   font-family: "VT323";
@@ -113,7 +172,7 @@ h3.web:hover {
 
 /*graphic*/
 /*check outs*/
-a:hover {
+a.check:hover {
   color: white;
 }
 
@@ -157,6 +216,11 @@ a.contact.call-me:hover {
 
 .section6:checked {
   color: #BDCCD4;
+}
+
+/*web*/
+a.web:hover {
+  cursor: url("/recursos/yo.jpeg"), auto;
 }
 
 div.foto-intro {
@@ -223,14 +287,6 @@ h1.header {
   margin-left: 30px;
 }
 
-div.foto-intro {
-  position: relative;
-  width: 70%;
-  height: 40%;
-  top: -10%;
-  left: 10%;
-}
-
 h2.intro {
   position: relative;
   top: -2%;
@@ -241,7 +297,7 @@ h2.intro {
 
 div.intro {
   position: relative;
-  top: -18%;
+  top: 20%;
   left: 14%;
   z-index: 100;
   background-color: transparent;
@@ -251,6 +307,26 @@ p.intro {
   background-color: transparent;
 }
 
+div.foto-intro {
+  position: relative;
+  width: 70%;
+  height: 40%;
+  top: -28%;
+  left: 10%;
+}
+
+div.block-intro {
+  position: relative;
+  width: 500px;
+  height: 40px;
+  background-color: black;
+  top: -1850px;
+}
+
+p.intro {
+  padding-left: 1.5%;
+}
+
 h3.web {
   position: relative;
   top: 15%;
@@ -258,7 +334,7 @@ h3.web {
   background-color: transparent;
 }
 
-p.web {
+div.web {
   position: relative;
   max-width: 70%;
   top: 13.5%;
@@ -280,7 +356,7 @@ h3.graphic {
   background-color: transparent;
 }
 
-p.graphic {
+div.graphic {
   position: relative;
   max-width: 70%;
   top: 3.5%;
@@ -364,6 +440,94 @@ ul.contact {
   background-color: transparent;
 }
 
+@media all and (min-width: 1100px) {
+  h2.intro {
+    top: -100px;
+    left: 10%;
+  }
+
+  div.intro {
+    top: -200px;
+    left: 35vw;
+  }
+
+  div.foto-intro {
+    width: 500px;
+    height: 600px;
+    top: -750px;
+    left: 20vw;
+  }
+
+  div.block-intro {
+    position: relative;
+    width: 1100px;
+    height: 40px;
+    background-color: black;
+    top: -1425px;
+  }
+
+  p.intro {
+    padding-left: 0.8%;
+  }
+
+  h3.web {
+    top: -50px;
+    left: 15vw;
+  }
+
+  div.web {
+    top: -100px;
+    left: 50vw;
+  }
+
+  a.web {
+    top: -100px;
+    left: 50vw;
+  }
+
+  h3.graphic {
+    top: -50px;
+    left: 15vw;
+  }
+
+  div.graphic {
+    top: -100px;
+    left: 20vw;
+  }
+
+  a.graphic {
+    top: -100px;
+    left: 20vw;
+  }
+
+  div.foto-music {
+    width: 50vw;
+    height: 120vh;
+    top: -10vw;
+    left: -24.9vw;
+  }
+
+  h3.music {
+    top: -90vh;
+    left: 43vw;
+  }
+
+  a.music {
+    top: -100vh;
+    left: 43vw;
+  }
+
+  h3.contact {
+    top: -10vh;
+    left: 10vw;
+  }
+
+  ul.contact {
+    padding-left: 0%;
+    top: -16vh;
+    left: 10vw;
+  }
+}
 body {
   padding: 0;
   margin: 0;
