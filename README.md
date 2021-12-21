@@ -13,4 +13,4 @@ ESAT / Proyecto 1
 
 20.12: placing desk y mejoras de placing. cambio de foto music. Probelmas pricnipales poner en nav abajo + :hover de graphic, cursor de de web y pelota de contacto.
 
-20.12: reunion con wakkos - problema del nav y checked solucionado.JS hecho. Bolita hecha. Cursor hecho con tooltip. Trabajo aplazado para el 28 de enero.
+21.12: reunion con wakkos - problema del nav y checked solucionado.JS hecho. Bolita hecha. Cursor hecho con tooltip. Trabajo aplazado para el 28 de enero.
