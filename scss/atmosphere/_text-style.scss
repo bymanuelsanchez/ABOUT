@@ -73,6 +73,7 @@ a.intro{
   font-size: 40px;
   line-height: 48px;
   color: $blanco;
+  background-color: transparent;
   text-decoration: none;
   border: 2px solid $blanco;
   padding: 15px;
@@ -99,13 +100,37 @@ label{
 
 
 @media all and (min-width: 1100px){
-  
+  //-----> NAV <-----\\
+  h1{
+    font-size: 20px;
+  }
+  .number{
+    font-size: 30px;
+    padding: 0%;
+  }
+  label.section1{
+    right: 0px;
+  }
+  label.section2{
+    right: 0px;
+  }
+  label.section3{
+    right: 0px;
+  }
+  label.section4{
+    right: 0px;
+  }
+  label.section5{
+    right: 0px;
+  }
+  label.section6{
+    right: 0px;
+  }
+  //-----> TEXT STYLE <-----\\
   a.check{
     font-size: 20px;
     line-height: 24px;
   }
-
-  //-----> INTRO <-----\\
   h2{
     font-size: 160px;
     line-height: 160px;
@@ -121,14 +146,13 @@ label{
     padding-left: 12px;
     padding-right: 12px;
   }
-
-  //-----> WEB <-----\\
   p.web{
     width: 530px;
   }
-
-  //-----> graphic <-----\\
   p.graphic{
     width: 530px;
+  }
+  h4{
+    font-size: 30px;
   }
 }

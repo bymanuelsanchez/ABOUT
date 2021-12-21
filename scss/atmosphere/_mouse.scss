@@ -35,6 +35,11 @@ h3.web:hover{
 }
 
 /*graphic*/
+
+/*graphic*/
+div.foto-music:hover{
+  filter: invert(1);
+}
   
 /*check outs*/
 a.check:hover{
@@ -58,31 +63,116 @@ a.contact.call-me:hover{
 
 
 //-----> $CHECKED-STYLE
-  
 /*nav*/
-.section1:checked{
+.input-section1:checked ~ .top-bar .section1 {
   color: $gris;
   }
-.section2:checked{
+.input-section2:checked ~ .top-bar .section2 {
   color: $azul;
   }
-.section3:checked{
+.input-section3:checked ~ .top-bar .section3 {
   color: $rojo;
   }
-.section4:checked{
+.input-section4:checked ~ .top-bar .section4 {
   color: $verde;
   }
-.section5:checked{
+.input-section5:checked ~ .top-bar .section5 {
   color: $naranja;
   }
-.section6:checked{
+.input-section6:checked ~ .top-bar .section6 {
   color: $gris;
 }
 
 
-//-----> $CURSOR
+//-----> $TOOLTIP
 
 /*web*/
-a.web:hover {
-  cursor: url("/recursos/yo.jpeg"), auto;
+a.web{
+  text-decoration: underline;
+}
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  transition: $tran-time;
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 10px;
+  padding-bottom: 8px;
+  width: 280px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 50px;
+  background-color: $blanco;
+  color: $negro;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+}
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  transition: $tran-time;
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid $blanco;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+
+//-----> $CURSOR
+/*graphic*/
+.graphic-h3{
+  cursor: pointer;
+}
+
+
+
+//-----> $BOUNCER
+.bouncer {
+  display:block;
+  position: absolute;
+  left: 249vw;
+  top: -4.8vh;
+  width:100px;
+  height:100px;
+  z-index: 100;
+  
+  text-align:center;
+}
+.bouncer.y {
+  background: $rojo;
+  border-radius:50%;
+}
+.x { animation: moveX 3.3333s linear infinite alternate; }
+.y { animation: moveY 2.1333s linear infinite alternate;}
+@keyframes moveX {
+  100% { transform: translate( calc(100vw - 100px) ); }
+}
+@keyframes moveY {
+  100% { transform: translateY( calc(100vh - 100px) ); }
 }

@@ -55,21 +55,21 @@ body {
   }
   
   /* Checkboxes function */
-  .section1:checked ~ .sections{
+  .input-section1:checked ~ .sections{
     transform: translateX(0);
   }
-  .section2:checked ~ .sections{
+  .input-section2:checked ~ .sections{
     transform: translateX(-16.6666%);
   }
-  .section3:checked ~ .sections{
+  .input-section3:checked ~ .sections{
     transform: translateX(-33.3332%);
   }
-  .section4:checked ~ .sections{
+  .input-section4:checked ~ .sections{
     transform: translateX(-49.9998%);
   }
-  .section5:checked ~ .sections{
+  .input-section5:checked ~ .sections{
     transform: translateX(-66.6664%);
   }
-  .section6:checked ~ .sections{
+  .input-section6:checked ~ .sections{
     transform: translateX(-83.3330%);
   }

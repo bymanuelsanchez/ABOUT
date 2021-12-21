@@ -137,6 +137,9 @@ a.music{
 
 
 //-----> STUDIES <-----\\
+.studies-row{
+  top: 10px;
+}
 h4.skills{
   position: relative;
   top: 5%;
@@ -152,14 +155,14 @@ div.skills{
 }
 h4.studies{
   position: relative;
-  top: 10%;
+  top: 12%;
   left: 19%;
   background-color: transparent;
 }
 div.studies{
   position: relative;
-  max-width: 90%;
-  top: 10%;
+  max-width: 85%;
+  top: 12%;
   left: 8.5%;
   background-color: transparent;
 }
@@ -202,8 +205,8 @@ ul.contact{
   }
   div.block-intro{
     position: relative;
-    width: 1100px;
-    height: 40px;
+    width: 1200px;
+    height: 60px;
     background-color: $negro;
     top: -1425px;
   }
@@ -228,15 +231,15 @@ ul.contact{
   //-----> GRAPHIC <-----\\
   h3.graphic{
     top: -50px;
-    left: 15vw;
+    left: 40vw;
   }
   div.graphic{
     top: -100px;
-    left: 20vw;
+    left: 45vw;
   }
   a.graphic{
     top: -100px;
-    left: 20vw;
+    left: 45vw;
   }
 
   //-----> MUSIC <-----\\
@@ -255,12 +258,41 @@ ul.contact{
     left: 43vw;
   }
 
+  //-----> STUDIES <-----\\
+  .studies-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .studies-row{
+    flex: 25%;
+  }
+  h4.skills{
+    top: 10vh;
+    left: 15vw;
+  }
+  div.skills{
+    width: 30vw;
+    top: 8vh;
+    left: 13vw;
+  }
+  h4.studies{
+    top: 10vh;
+    left: 8vw;
+  }
+  div.studies{
+    width: 30vw;
+    top: 8vh;
+    left: 6vw;
+  }
+
+
   //-----> CONTACT <-----\\
-h3.contact{
+  h3.contact{
   top: -10vh;
   left: 10vw;
-}
-ul.contact{
+  }
+  ul.contact{
   padding-left: 0%;
   top: -16vh;
   left: 10vw;
