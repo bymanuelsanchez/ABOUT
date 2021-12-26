@@ -1,33 +1,38 @@
 //-----> $PLACING MÓVIL
 
 //-----> NAV <-----\\
-/*nav*/
-input, h1.header{
-  display:flex;
+/*top-bar*/
+.top-bar{
+  display: inline-block;
   align-items: center;
-} 
+  position: absolute;
+  z-index: 90;
+  width: 100%;
+  bottom: 0%;
+}
+
 /*nav items*/
 .nav{
   position: absolute;
   right: 30px;
 }
 label.section1{
-  right: 230px;
+  left: 73vw;
 }
 label.section2{
-  right: 190px;
+  left: 77vw;
 }
 label.section3{
-  right: 150px;
+  left: 81vw;
 }
 label.section4{
-  right: 110px;
+  left: 85vw;
 }
 label.section5{
-  right: 70px;
+  left: 89vw;
 }
 label.section6{
-  right: 30px;
+  left: 93vw;
 }
 h1.header{
   margin-left: 30px;
@@ -38,7 +43,7 @@ h2.intro{
   position: relative;
   top: -2%;
   left: 4%;
-  z-index: 100;
+  z-index: 80;
   background-color: transparent;
 }
 div.intro{
@@ -60,10 +65,10 @@ div.foto-intro{
 }
 div.block-intro{
   position: relative;
-  width: 500px;
-  height: 40px;
+  width: 600px;
+  height: 60px;
   background-color: $negro;
-  top: -1850px;
+  top: -1730px;
 }
 p.intro{
   padding-left: 1.5%;
@@ -79,7 +84,7 @@ h3.web{
 }
 div.web{
   position: relative;
-  max-width: 70%;
+  max-width: 60%;
   top: 13.5%;
   left: 20%;
   background-color: transparent;
@@ -181,34 +186,66 @@ ul.contact{
   left: 7%;
   background-color: transparent;
 }
+p.contact{
+  padding-left: 0%;
+  position: relative;
+  top: 0%;
+  left: 7%;
+  background-color: transparent;
+}
 
 
 
 
 
 @media all and (min-width: 1100px){
+
+  //-----> NAV <-----\\
+  /*nav items*/
+  .number{
+    padding-top: 1.3vh;
+  }
+  label.section1{
+    left: 89.7vw;
+  }
+  label.section2{
+    left: 91vw;
+  }
+  label.section3{
+    left: 92.5vw;
+  }
+  label.section4{
+    left: 94vw;
+  }
+  label.section5{
+    left: 95.5vw;
+  }
+  label.section6{
+    left: 97vw;
+  }
   
   //-----> INTRO <-----\\
   h2.intro{
-    top: -100px;
+    top: -25px;
     left: 10%;
   }
   div.intro{
-    top: -200px;
+    top: -125px;
     left: 35vw;
   }
   div.foto-intro{
     width: 500px;
     height: 600px;
-    top: -750px;
+    top: -675px;
     left: 20vw;
   }
   div.block-intro{
     position: relative;
-    width: 1200px;
+    width: 500px;
     height: 60px;
-    background-color: $negro;
-    top: -1425px;
+    background-color: yellow;
+    bottom: 20px;
+    z-index: 100;
   }
   p.intro{
     padding-left: .8%;
@@ -216,30 +253,30 @@ ul.contact{
 
   //-----> WEB <-----\\
   h3.web{
-    top: -50px;
-    left: 15vw;
+    top: 50px;
+    left: 10vw;
   }
   div.web{
-    top: -100px;
-    left: 50vw;
+    top: 0px;
+    left: 45vw;
   }
   a.web{
-    top: -100px;
-    left: 50vw;
+    top: 0px;
+    left: 45vw;
   }
 
   //-----> GRAPHIC <-----\\
   h3.graphic{
-    top: -50px;
-    left: 40vw;
+    top: 60px;
+    left: 30vw;
   }
   div.graphic{
-    top: -100px;
-    left: 45vw;
+    top: 10px;
+    left: 35vw;
   }
   a.graphic{
-    top: -100px;
-    left: 45vw;
+    top: 10px;
+    left: 35vw;
   }
 
   //-----> MUSIC <-----\\
@@ -268,33 +305,36 @@ ul.contact{
     flex: 25%;
   }
   h4.skills{
-    top: 10vh;
-    left: 15vw;
+    top: 22vh;
+    left: 17vw;
   }
   div.skills{
     width: 30vw;
-    top: 8vh;
-    left: 13vw;
+    top: 20vh;
+    left: 15vw;
   }
   h4.studies{
-    top: 10vh;
-    left: 8vw;
+    top: 22vh;
+    left: 10vw;
   }
   div.studies{
     width: 30vw;
-    top: 8vh;
-    left: 6vw;
+    top: 20vh;
+    left: 8vw;
   }
 
 
   //-----> CONTACT <-----\\
   h3.contact{
-  top: -10vh;
+  top: 0vh;
   left: 10vw;
   }
   ul.contact{
-  padding-left: 0%;
-  top: -16vh;
+  top: -6vh;
   left: 10vw;
-}
+  }
+  p.contact{
+  top: -6vh;
+  left: 10.5vw;
+  }
 }

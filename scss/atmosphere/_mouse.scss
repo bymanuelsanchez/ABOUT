@@ -26,13 +26,13 @@ a.intro:hover{
   color: $negro;
 }
 
-/*web*/
+/*web
 h3.web:hover{
   font-family: 'VT323';
   font-size: 110px;
   line-height: 90px;
   font-kerning: 100px;
-}
+}*/
 
 /*graphic*/
 
@@ -110,7 +110,7 @@ a.web{
   margin-bottom: 5px;
   margin-left: -80px;
   padding: 10px;
-  padding-bottom: 8px;
+  padding-bottom: 9px;
   width: 280px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -157,22 +157,36 @@ a.web{
   display:block;
   position: absolute;
   left: 249vw;
-  top: -4.8vh;
+  top: 0vh;
   width:100px;
   height:100px;
   z-index: 100;
-  
+  transition: $tran-time;
   text-align:center;
 }
 .bouncer.y {
   background: $rojo;
   border-radius:50%;
+  z-index: 100;
 }
-.x { animation: moveX 3.3333s linear infinite alternate; }
-.y { animation: moveY 2.1333s linear infinite alternate;}
+.x { animation: moveX 5.5s linear infinite alternate;}
+.y { animation: moveY 3.8s linear infinite alternate;}
 @keyframes moveX {
   100% { transform: translate( calc(100vw - 100px) ); }
 }
 @keyframes moveY {
   100% { transform: translateY( calc(100vh - 100px) ); }
+}
+
+/*bouncer + hover :)*/
+
+.bouncer.y:hover {
+  background: $verde;
+  background-image: url(/recursos/smiley.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:50%;
 }

@@ -47,6 +47,10 @@ p{
 p.intro{
   color: $blanco;
 }
+
+p.contact{
+  color: $blanco;
+}
   
 a.contact{
   color: $blanco;
@@ -85,8 +89,14 @@ a.intro{
 .number{
   font-family: 'Darker Grotesque', sans-serif;
   font-weight: 600;
+  padding-top: 0%;
 }
-  
+
+//-----> NAV <-----\\
+/*top-bar*/
+.top-bar{
+  background-color: $negro;
+}
 /*nav*/
 input.nav{
   display: none;
