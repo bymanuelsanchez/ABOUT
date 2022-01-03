@@ -1,3 +1,4 @@
+
 //-----> $PLACING MÓVIL
 
 //-----> NAV <-----\\
@@ -41,27 +42,29 @@ h1.header{
 //-----> INTRO <-----\\
 h2.intro{
   position: relative;
-  top: -2%;
+  top: 2%;
   left: 4%;
-  z-index: 80;
   background-color: transparent;
+  z-index: 100;
 }
 div.intro{
   position: relative;
-  top: 20%;
+  top: 24%;
   left: 14%;
   z-index: 100;
   background-color: transparent;
 }
 p.intro{
   background-color: transparent;
+  z-index: 100;
 }
 div.foto-intro{
   position: relative;
   width: 70%;
   height: 40%;
-  top: -28%;
+  top: -24%;
   left: 10%;
+  z-index: 99;
 }
 div.block-intro{
   position: relative;
@@ -142,32 +145,32 @@ a.music{
 
 
 //-----> STUDIES <-----\\
-.studies-row{
+section.studies{
   top: 10px;
 }
 h4.skills{
   position: relative;
-  top: 5%;
+  top: 10%;
   left: 19%;
   background-color: transparent;
 }
 div.skills{
   position: relative;
   max-width: 90%;
-  top: 5%;
+  top: 10%;
   left: 8.5%;
   background-color: transparent;
 }
 h4.studies{
   position: relative;
-  top: 12%;
+  top: 17%;
   left: 19%;
   background-color: transparent;
 }
 div.studies{
   position: relative;
   max-width: 85%;
-  top: 12%;
+  top: 17%;
   left: 8.5%;
   background-color: transparent;
 }
@@ -175,28 +178,108 @@ div.studies{
 //-----> CONTACT <-----\\
 h3.contact{
   position: relative;
-  top: 0%;
+  top: 10%;
   left: 7%;
   background-color: transparent;
 }
 ul.contact{
   padding-left: 0%;
   position: relative;
-  top: 0%;
+  top: 10%;
   left: 7%;
   background-color: transparent;
 }
 p.contact{
   padding-left: 0%;
   position: relative;
-  top: 0%;
+  top: 10%;
   left: 7%;
   background-color: transparent;
 }
 
 
+@media all and (min-width: 500px){
+  //-----> NAV <-----\\
+  /*nav items*/
+  .number{
+    padding-top: 1.3vh;
+  }
+  label.section1{
+    left: 87vw;
+  }
+  label.section2{
+    left: 89vw;
+  }
+  label.section3{
+    left: 91vw;
+  }
+  label.section4{
+    left: 93vw;
+  }
+  label.section5{
+    left: 95vw;
+  }
+  label.section6{
+    left: 97vw;
+  }
 
+  //-----> INTRO <-----\\
+  h2.intro{
+    top: -25px;
+    left: 5vw;
+  }
+  div.intro{
+    top: -125px;
+    left: 15vw;
+  }
+  div.foto-intro{
+    width: 500px;
+    height: 600px;
+    top: -600px;
+    left: 15vw;
+  }
+  div.block-intro{
+    position: relative;
+    width: 500px;
+    height: 2000px;
+    background-color: $negro;
+    bottom: -100px;
+    z-index: 98;
+  }
+  p.intro{
+    padding-left: .8%;
+  }
+  
+  //-----> MUSIC <-----\\
+  div.foto-music{
+    width: 50vw;
+    height: 120vh;
+    top: -10vw;
+    left: -24.9vw;
+  }
+  h3.music{
+    top: -70vh;
+    left: 30vw;
+  }
+  a.music{
+    top: -80vh;
+    left: 30vw;
+  }
 
+  //-----> CONTACT <-----\\
+  h3.contact{
+    top: 2vh;
+    left: 10vw;
+    }
+    ul.contact{
+    top: -4vh;
+    left: 10vw;
+    }
+    p.contact{
+    top: -4vh;
+    left: 10.5vw;
+    }
+}
 
 @media all and (min-width: 1100px){
 
@@ -242,10 +325,10 @@ p.contact{
   div.block-intro{
     position: relative;
     width: 500px;
-    height: 60px;
-    background-color: yellow;
-    bottom: 20px;
-    z-index: 100;
+    height: 2000px;
+    background-color: $negro;
+    bottom: -100px;
+    z-index: 98;
   }
   p.intro{
     padding-left: .8%;
@@ -338,3 +421,4 @@ p.contact{
   left: 10.5vw;
   }
 }
+

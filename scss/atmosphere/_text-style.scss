@@ -1,3 +1,4 @@
+
 //-----> $TEXT-STYLE
 
 html{
@@ -46,6 +47,7 @@ p{
   
 p.intro{
   color: $blanco;
+  padding-left: 2%;
 }
 
 p.contact{
@@ -79,7 +81,7 @@ a.intro{
   color: $blanco;
   background-color: transparent;
   text-decoration: none;
-  border: 2px solid $blanco;
+  border: 4px solid $blanco;
   padding: 15px;
   padding-left: 20px;
   padding-right: 20px;
@@ -107,6 +109,74 @@ label{
   font-size: 60px;
 }
 
+
+
+
+
+
+
+@media all and (min-width: 500px){
+  //-----> NAV <-----\\
+  h1{
+    font-size: 20px;
+  }
+  .number{
+    font-size: 30px;
+    padding: 0%;
+  }
+  label.section1{
+    right: 0px;
+  }
+  label.section2{
+    right: 0px;
+  }
+  label.section3{
+    right: 0px;
+  }
+  label.section4{
+    right: 0px;
+  }
+  label.section5{
+    right: 0px;
+  }
+  label.section6{
+    right: 0px;
+  }
+  //-----> TEXT STYLE <-----\\
+  a.check{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  h2{
+    font-size: 140px;
+    line-height: 140px;
+  }
+  p{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  h3{
+    font-family: 90px;
+    line-height: 90px;
+  }
+  a.intro{
+    border: 2px solid $blanco;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  p.web{
+    width: 530px;
+  }
+  p.graphic{
+    width: 530px;
+  }
+  h4{
+    font-size: 30px;
+  }
+}
 
 
 @media all and (min-width: 1100px){
@@ -150,6 +220,7 @@ label{
     line-height: 24px;
   }
   a.intro{
+    border: 2px solid $blanco;
     font-size: 20px;
     line-height: 24px;
     padding: 8px;

@@ -16,3 +16,5 @@ ESAT / Proyecto 1
 21.12: reunion con wakkos - problema del nav y checked solucionado.JS hecho. Bolita hecha. Cursor hecho con tooltip. Trabajo aplazado para el 28 de enero.
 
 26.12: top bar con fondo negro y abajo. arreglado el placing de desktop falta movil y hacer el mid. Hehco el smiley de  bouncer.
+
+3.1: @media 500px hecho, fallo de @media no coge el basico despues de 500px.
