@@ -265,7 +265,7 @@ label.section2:hover {
 }
 
 label.section3:hover {
-  color: #FF7075;
+  color: #EA5361;
 }
 
 label.section4:hover {
@@ -311,7 +311,7 @@ a.contact.mail:hover {
 }
 
 a.contact.behance:hover {
-  color: #FF7075;
+  color: #EA5361;
 }
 
 a.contact.instagram:hover {
@@ -332,7 +332,7 @@ a.contact.call-me:hover {
 }
 
 .input-section3:checked ~ .top-bar .section3 {
-  color: #FF7075;
+  color: #EA5361;
 }
 
 .input-section4:checked ~ .top-bar .section4 {
@@ -429,7 +429,7 @@ a.web {
 }
 
 .bouncer.y {
-  background: #FF7075;
+  background: #EA5361;
   border-radius: 50%;
   z-index: 100;
 }
@@ -1018,7 +1018,7 @@ body {
 }
 
 .graphic {
-  background-color: #FF7075;
+  background-color: #EA5361;
 }
 
 .music {
