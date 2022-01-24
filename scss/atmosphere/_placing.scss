@@ -18,39 +18,39 @@
   right: 30px;
 }
 label.section1{
-  left: 73vw;
+  left: 71vw;
 }
 label.section2{
-  left: 77vw;
+  left: 75vw;
 }
 label.section3{
-  left: 81vw;
+  left: 79.5vw;
 }
 label.section4{
-  left: 85vw;
+  left: 84vw;
 }
 label.section5{
-  left: 89vw;
+  left: 88.5vw;
 }
 label.section6{
   left: 93vw;
 }
 h1.header{
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 //-----> INTRO <-----\\
 h2.intro{
   position: relative;
-  top: 2%;
-  left: 4%;
+  top: 0%;
+  left: 1%;
   background-color: transparent;
   z-index: 100;
 }
 div.intro{
   position: relative;
-  top: 24%;
-  left: 14%;
+  top: 20%;
+  left: 10%;
   z-index: 100;
   background-color: transparent;
 }
@@ -62,19 +62,12 @@ div.foto-intro{
   position: relative;
   width: 70%;
   height: 40%;
-  top: -24%;
+  top: -30%;
   left: 10%;
   z-index: 99;
 }
-div.block-intro{
-  position: relative;
-  width: 600px;
-  height: 60px;
-  background-color: $negro;
-  top: -1730px;
-}
 p.intro{
-  padding-left: 1.5%;
+  padding-left: 5%;
 }
 
 
@@ -103,7 +96,7 @@ a.web{
 h3.graphic{
   position: relative;
   top: 5%;
-  left: 30%;
+  left: 15%;
   background-color: transparent;
 }
 div.graphic{
@@ -130,48 +123,45 @@ div.foto-music{
 }
 h3.music{
   position: relative;
-  top: -4.5%;
-  left: 33%;
+  top: -6%;
+  left: 10%;
   z-index: 100;
   background-color: transparent;
 }
 a.music{
   position: relative;
-  top: -7.5%;
-  left: 33%;
+  top: -12%;
+  left: 10%;
   z-index: 100;
   background-color: transparent;
 }
 
 
 //-----> STUDIES <-----\\
-section.studies{
-  top: 10px;
-}
 h4.skills{
   position: relative;
   top: 10%;
-  left: 19%;
+  left: 15%;
   background-color: transparent;
 }
 div.skills{
   position: relative;
   max-width: 90%;
   top: 10%;
-  left: 8.5%;
+  left: 6.5%;
   background-color: transparent;
 }
 h4.studies{
   position: relative;
   top: 17%;
-  left: 19%;
+  left: 15%;
   background-color: transparent;
 }
 div.studies{
   position: relative;
   max-width: 85%;
   top: 17%;
-  left: 8.5%;
+  left: 6.5%;
   background-color: transparent;
 }
 
@@ -179,21 +169,21 @@ div.studies{
 h3.contact{
   position: relative;
   top: 10%;
-  left: 7%;
+  left: 2%;
   background-color: transparent;
 }
 ul.contact{
   padding-left: 0%;
   position: relative;
   top: 10%;
-  left: 7%;
+  left: 2%;
   background-color: transparent;
 }
 p.contact{
   padding-left: 0%;
   position: relative;
   top: 10%;
-  left: 7%;
+  left: 2%;
   background-color: transparent;
 }
 
@@ -201,9 +191,7 @@ p.contact{
 @media all and (min-width: 500px){
   //-----> NAV <-----\\
   /*nav items*/
-  .number{
-    padding-top: 1.3vh;
-  }
+  
   label.section1{
     left: 87vw;
   }
@@ -259,11 +247,11 @@ p.contact{
   }
   h3.music{
     top: -70vh;
-    left: 30vw;
+    left: 20vw;
   }
   a.music{
     top: -80vh;
-    left: 30vw;
+    left: 20vw;
   }
 
   //-----> CONTACT <-----\\
@@ -272,7 +260,7 @@ p.contact{
     left: 10vw;
     }
     ul.contact{
-    top: -4vh;
+    top: -3vh;
     left: 10vw;
     }
     p.contact{
@@ -281,13 +269,10 @@ p.contact{
     }
 } 
 
-@media all and (min-width: 1100px){
+@media all and (min-width: 900px){
 
   //-----> NAV <-----\\
   /*nav items*/
-  .number{
-    padding-top: 1.3vh;
-  }
   label.section1{
     left: 89.7vw;
   }
@@ -371,11 +356,11 @@ p.contact{
   }
   h3.music{
     top: -90vh;
-    left: 43vw;
+    left: 27vw;
   }
   a.music{
     top: -100vh;
-    left: 43vw;
+    left: 27vw;
   }
 
   //-----> STUDIES <-----\\
@@ -409,15 +394,15 @@ p.contact{
 
   //-----> CONTACT <-----\\
   h3.contact{
-  top: 0vh;
+  top: -2vh;
   left: 10vw;
   }
   ul.contact{
-  top: -6vh;
+  top: -12vh;
   left: 10vw;
   }
   p.contact{
-  top: -6vh;
+  top: -10vh;
   left: 10.5vw;
   }
 }

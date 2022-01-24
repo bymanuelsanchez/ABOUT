@@ -6,22 +6,22 @@ html {
 h1 {
   color: white;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 44px;
+  font-size: 20px;
+  line-height: 22px;
 }
 
 h2 {
   color: white;
   font-weight: 500;
-  font-size: 140px;
-  line-height: 140px;
+  font-size: 70px;
+  line-height: 70px;
 }
 
 h3 {
   color: black;
   font-weight: 500;
-  font-size: 100px;
-  line-height: 100px;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 h3.contact {
@@ -31,15 +31,15 @@ h3.contact {
 h4 {
   color: black;
   font-weight: 500;
-  font-size: 40px;
-  line-height: 44px;
+  font-size: 20px;
+  line-height: 22px;
 }
 
 p {
   color: black;
   font-weight: 300;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 p.intro {
@@ -59,29 +59,29 @@ a.contact {
 a {
   color: black;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 60px;
+  font-size: 15px;
+  line-height: 30px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 a.contact {
   font-weight: 400;
-  font-size: 100px;
-  line-height: 100px;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 a.intro {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   font-weight: 300;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 15px;
+  line-height: 24px;
   color: white;
   background-color: transparent;
   text-decoration: none;
-  border: 4px solid white;
-  padding: 15px;
+  border: 2px solid white;
+  padding: 7px;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 100px;
@@ -107,7 +107,7 @@ label {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   color: white;
-  font-size: 60px;
+  font-size: 30px;
 }
 
 @media all and (min-width: 500px) {
@@ -160,8 +160,8 @@ label {
   }
 
   h3 {
-    font-family: 90px;
-    line-height: 90px;
+    font-size: 90px;
+    line-height: 80px;
   }
 
   a.intro {
@@ -184,8 +184,14 @@ label {
   h4 {
     font-size: 30px;
   }
+
+  a.contact {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+  }
 }
-@media all and (min-width: 1100px) {
+@media all and (min-width: 900px) {
   h1 {
     font-size: 20px;
   }
@@ -253,6 +259,11 @@ label {
 
   h4 {
     font-size: 30px;
+  }
+
+  h3 {
+    font-size: 110px;
+    line-height: 100px;
   }
 }
 /*nav*/
@@ -521,23 +532,23 @@ div.foto-music {
 }
 
 label.section1 {
-  left: 73vw;
+  left: 71vw;
 }
 
 label.section2 {
-  left: 77vw;
+  left: 75vw;
 }
 
 label.section3 {
-  left: 81vw;
+  left: 79.5vw;
 }
 
 label.section4 {
-  left: 85vw;
+  left: 84vw;
 }
 
 label.section5 {
-  left: 89vw;
+  left: 88.5vw;
 }
 
 label.section6 {
@@ -545,21 +556,21 @@ label.section6 {
 }
 
 h1.header {
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 h2.intro {
   position: relative;
-  top: 2%;
-  left: 4%;
+  top: 0%;
+  left: 1%;
   background-color: transparent;
   z-index: 100;
 }
 
 div.intro {
   position: relative;
-  top: 24%;
-  left: 14%;
+  top: 20%;
+  left: 10%;
   z-index: 100;
   background-color: transparent;
 }
@@ -573,21 +584,13 @@ div.foto-intro {
   position: relative;
   width: 70%;
   height: 40%;
-  top: -24%;
+  top: -30%;
   left: 10%;
   z-index: 99;
 }
 
-div.block-intro {
-  position: relative;
-  width: 600px;
-  height: 60px;
-  background-color: black;
-  top: -1730px;
-}
-
 p.intro {
-  padding-left: 1.5%;
+  padding-left: 5%;
 }
 
 h3.web {
@@ -615,7 +618,7 @@ a.web {
 h3.graphic {
   position: relative;
   top: 5%;
-  left: 30%;
+  left: 15%;
   background-color: transparent;
 }
 
@@ -644,28 +647,24 @@ div.foto-music {
 
 h3.music {
   position: relative;
-  top: -4.5%;
-  left: 33%;
+  top: -6%;
+  left: 10%;
   z-index: 100;
   background-color: transparent;
 }
 
 a.music {
   position: relative;
-  top: -7.5%;
-  left: 33%;
+  top: -12%;
+  left: 10%;
   z-index: 100;
   background-color: transparent;
-}
-
-section.studies {
-  top: 10px;
 }
 
 h4.skills {
   position: relative;
   top: 10%;
-  left: 19%;
+  left: 15%;
   background-color: transparent;
 }
 
@@ -673,14 +672,14 @@ div.skills {
   position: relative;
   max-width: 90%;
   top: 10%;
-  left: 8.5%;
+  left: 6.5%;
   background-color: transparent;
 }
 
 h4.studies {
   position: relative;
   top: 17%;
-  left: 19%;
+  left: 15%;
   background-color: transparent;
 }
 
@@ -688,14 +687,14 @@ div.studies {
   position: relative;
   max-width: 85%;
   top: 17%;
-  left: 8.5%;
+  left: 6.5%;
   background-color: transparent;
 }
 
 h3.contact {
   position: relative;
   top: 10%;
-  left: 7%;
+  left: 2%;
   background-color: transparent;
 }
 
@@ -703,7 +702,7 @@ ul.contact {
   padding-left: 0%;
   position: relative;
   top: 10%;
-  left: 7%;
+  left: 2%;
   background-color: transparent;
 }
 
@@ -711,16 +710,12 @@ p.contact {
   padding-left: 0%;
   position: relative;
   top: 10%;
-  left: 7%;
+  left: 2%;
   background-color: transparent;
 }
 
 @media all and (min-width: 500px) {
   /*nav items*/
-  .number {
-    padding-top: 1.3vh;
-  }
-
   label.section1 {
     left: 87vw;
   }
@@ -784,12 +779,12 @@ p.contact {
 
   h3.music {
     top: -70vh;
-    left: 30vw;
+    left: 20vw;
   }
 
   a.music {
     top: -80vh;
-    left: 30vw;
+    left: 20vw;
   }
 
   h3.contact {
@@ -798,7 +793,7 @@ p.contact {
   }
 
   ul.contact {
-    top: -4vh;
+    top: -3vh;
     left: 10vw;
   }
 
@@ -807,12 +802,8 @@ p.contact {
     left: 10.5vw;
   }
 }
-@media all and (min-width: 1100px) {
+@media all and (min-width: 900px) {
   /*nav items*/
-  .number {
-    padding-top: 1.3vh;
-  }
-
   label.section1 {
     left: 89.7vw;
   }
@@ -906,12 +897,12 @@ p.contact {
 
   h3.music {
     top: -90vh;
-    left: 43vw;
+    left: 27vw;
   }
 
   a.music {
     top: -100vh;
-    left: 43vw;
+    left: 27vw;
   }
 
   .studies-grid {
@@ -955,17 +946,17 @@ p.contact {
   }
 
   h3.contact {
-    top: 0vh;
+    top: -2vh;
     left: 10vw;
   }
 
   ul.contact {
-    top: -6vh;
+    top: -12vh;
     left: 10vw;
   }
 
   p.contact {
-    top: -6vh;
+    top: -10vh;
     left: 10.5vw;
   }
 }
