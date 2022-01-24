@@ -4,7 +4,7 @@ html {
 }
 
 h1 {
-  color: white;
+  color: rgba(0, 0, 0, 0);
   font-weight: 400;
   font-size: 20px;
   line-height: 22px;
@@ -93,6 +93,11 @@ a.intro {
   padding-top: 0%;
 }
 
+label.nav {
+  padding-top: 2.5vh;
+  font-size: 15px;
+}
+
 /*top-bar*/
 .top-bar {
   background-color: black;
@@ -107,10 +112,15 @@ label {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 @media all and (min-width: 500px) {
+  label.nav {
+    padding-top: 1.5vh;
+    font-size: 20px;
+  }
+
   h1 {
     font-size: 20px;
   }
@@ -304,7 +314,6 @@ h3.web:hover{
   line-height: 90px;
   font-kerning: 100px;
 }*/
-/*graphic*/
 /*graphic*/
 div.foto-music:hover {
   -webkit-filter: invert(1);
@@ -532,27 +541,27 @@ div.foto-music {
 }
 
 label.section1 {
-  left: 71vw;
+  left: 15px;
 }
 
 label.section2 {
-  left: 75vw;
+  left: 70px;
 }
 
 label.section3 {
-  left: 79.5vw;
+  left: 115px;
 }
 
 label.section4 {
-  left: 84vw;
+  left: 185px;
 }
 
 label.section5 {
-  left: 88.5vw;
+  left: 240px;
 }
 
 label.section6 {
-  left: 93vw;
+  left: 290px;
 }
 
 h1.header {
@@ -717,27 +726,27 @@ p.contact {
 @media all and (min-width: 500px) {
   /*nav items*/
   label.section1 {
-    left: 87vw;
+    left: 15px;
   }
 
   label.section2 {
-    left: 89vw;
+    left: 85px;
   }
 
   label.section3 {
-    left: 91vw;
+    left: 140px;
   }
 
   label.section4 {
-    left: 93vw;
+    left: 225px;
   }
 
   label.section5 {
-    left: 95vw;
+    left: 290px;
   }
 
   label.section6 {
-    left: 97vw;
+    left: 347px;
   }
 
   h2.intro {
@@ -805,27 +814,27 @@ p.contact {
 @media all and (min-width: 900px) {
   /*nav items*/
   label.section1 {
-    left: 89.7vw;
+    left: 15px;
   }
 
   label.section2 {
-    left: 91vw;
+    left: 85px;
   }
 
   label.section3 {
-    left: 92.5vw;
+    left: 140px;
   }
 
   label.section4 {
-    left: 94vw;
+    left: 225px;
   }
 
   label.section5 {
-    left: 95.5vw;
+    left: 290px;
   }
 
   label.section6 {
-    left: 97vw;
+    left: 347px;
   }
 
   h2.intro {
