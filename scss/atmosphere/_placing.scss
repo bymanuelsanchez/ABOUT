@@ -9,14 +9,15 @@
   position: absolute;
   z-index: 90;
   width: 100%;
+  height: 50px;
   bottom: 0%;
 }
 
-/*nav items*/
+/*nav items
 .nav{
   position: absolute;
   right: 30px;
-}
+}/*
 label.section1{
   left:  15px;
 }
@@ -34,10 +35,17 @@ label.section5{
 }
 label.section6{
   left:  290px;
+}*/
+
+label.section1{
+  padding-left: 20px;
 }
-h1.header{
-  margin-left: 15px;
+label{
+  position: relative;
+  padding: 7px;
+  bottom: -13px;
 }
+
 
 //-----> INTRO <-----\\
 h2.intro{
@@ -190,7 +198,7 @@ p.contact{
 
 @media all and (min-width: 500px){
   //-----> NAV <-----\\
-  /*nav items*/
+  /*nav items
   
   label.section1{
     left:  15px;
@@ -209,7 +217,7 @@ p.contact{
   }
   label.section6{
     left:  347px;
-  }
+  }*/
   
 
   //-----> INTRO <-----\\
@@ -273,7 +281,7 @@ p.contact{
 @media all and (min-width: 900px){
 
   //-----> NAV <-----\\
-  /*nav items*/
+  /*nav items
   label.section1{
     left:  15px;
   }
@@ -291,7 +299,7 @@ p.contact{
   }
   label.section6{
     left:  347px;
-  }
+  }*/
   
   //-----> INTRO <-----\\
   h2.intro{

@@ -69,6 +69,7 @@ a.contact {
   font-weight: 400;
   font-size: 50px;
   line-height: 50px;
+  max-width: 50%;
 }
 
 a.intro {
@@ -80,7 +81,7 @@ a.intro {
   color: white;
   background-color: transparent;
   text-decoration: none;
-  border: 2px solid white;
+  border: 1.5px solid white;
   padding: 7px;
   padding-left: 20px;
   padding-right: 20px;
@@ -175,7 +176,7 @@ label {
   }
 
   a.intro {
-    border: 2px solid white;
+    border: 1.5px solid white;
     font-size: 20px;
     line-height: 24px;
     padding: 8px;
@@ -251,7 +252,7 @@ label {
   }
 
   a.intro {
-    border: 2px solid white;
+    border: 1.5px solid white;
     font-size: 20px;
     line-height: 24px;
     padding: 8px;
@@ -491,7 +492,7 @@ a.web {
 }
 /*bouncer + hover :)*/
 .bouncer.y:hover {
-  background-image: url(/recursos/smiley.png);
+  background-image: url(../recursos/smiley.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -502,7 +503,7 @@ a.web {
 
 div.foto-intro {
   background-color: #BDCCD4;
-  background-image: url(/recursos/yo.jpeg);
+  background-image: url(../recursos/yo.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -512,7 +513,7 @@ div.foto-intro {
 
 div.foto-music {
   background-color: #BDCCD4;
-  background-image: url(/recursos/music.png);
+  background-image: url(../recursos/music.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -531,41 +532,41 @@ div.foto-music {
   position: absolute;
   z-index: 90;
   width: 100%;
+  height: 50px;
   bottom: 0%;
 }
 
-/*nav items*/
-.nav {
+/*nav items
+.nav{
   position: absolute;
   right: 30px;
+}/*
+label.section1{
+  left:  15px;
 }
-
+label.section2{
+  left:  70px;
+}
+label.section3{
+  left:  115px;
+}
+label.section4{
+  left:  185px;
+}
+label.section5{
+  left:  240px;
+}
+label.section6{
+  left:  290px;
+}*/
 label.section1 {
-  left: 15px;
+  padding-left: 20px;
 }
 
-label.section2 {
-  left: 70px;
-}
-
-label.section3 {
-  left: 115px;
-}
-
-label.section4 {
-  left: 185px;
-}
-
-label.section5 {
-  left: 240px;
-}
-
-label.section6 {
-  left: 290px;
-}
-
-h1.header {
-  margin-left: 15px;
+label {
+  position: relative;
+  padding: 7px;
+  bottom: -13px;
 }
 
 h2.intro {
@@ -724,31 +725,26 @@ p.contact {
 }
 
 @media all and (min-width: 500px) {
-  /*nav items*/
-  label.section1 {
-    left: 15px;
-  }
+  /*nav items
 
-  label.section2 {
-    left: 85px;
+  label.section1{
+    left:  15px;
   }
-
-  label.section3 {
-    left: 140px;
+  label.section2{
+    left:  85px;
   }
-
-  label.section4 {
-    left: 225px;
+  label.section3{
+    left:  140px;
   }
-
-  label.section5 {
-    left: 290px;
+  label.section4{
+    left:  225px;
   }
-
-  label.section6 {
-    left: 347px;
+  label.section5{
+    left:  290px;
   }
-
+  label.section6{
+    left:  347px;
+  }*/
   h2.intro {
     top: -25px;
     left: 5vw;
@@ -812,31 +808,25 @@ p.contact {
   }
 }
 @media all and (min-width: 900px) {
-  /*nav items*/
-  label.section1 {
-    left: 15px;
+  /*nav items
+  label.section1{
+    left:  15px;
   }
-
-  label.section2 {
-    left: 85px;
+  label.section2{
+    left:  85px;
   }
-
-  label.section3 {
-    left: 140px;
+  label.section3{
+    left:  140px;
   }
-
-  label.section4 {
-    left: 225px;
+  label.section4{
+    left:  225px;
   }
-
-  label.section5 {
-    left: 290px;
+  label.section5{
+    left:  290px;
   }
-
-  label.section6 {
-    left: 347px;
-  }
-
+  label.section6{
+    left:  347px;
+  }*/
   h2.intro {
     top: -25px;
     left: 10%;
@@ -969,6 +959,10 @@ p.contact {
     left: 10.5vw;
   }
 }
+html {
+  overflow: hidden;
+}
+
 body {
   padding: 0;
   margin: 0;
