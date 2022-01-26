@@ -492,7 +492,7 @@ a.web {
 }
 /*bouncer + hover :)*/
 .bouncer.y:hover {
-  background-image: url(../recursos/smiley.png);
+  background-image: url(../../recursos/smiley.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -530,7 +530,7 @@ div.foto-music {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  z-index: 90;
+  z-index: 100;
   width: 100%;
   height: 50px;
   bottom: 0%;
@@ -579,8 +579,8 @@ h2.intro {
 
 div.intro {
   position: relative;
-  top: 20%;
-  left: 10%;
+  top: 8%;
+  left: 8%;
   z-index: 100;
   background-color: transparent;
 }
@@ -620,7 +620,7 @@ div.web {
 
 a.web {
   position: relative;
-  top: 15%;
+  top: 15vh;
   left: 20%;
   background-color: transparent;
 }
@@ -642,7 +642,7 @@ div.graphic {
 
 a.graphic {
   position: relative;
-  top: 5%;
+  top: 4vh;
   left: 5%;
   background-color: transparent;
 }
@@ -665,7 +665,7 @@ h3.music {
 
 a.music {
   position: relative;
-  top: -12%;
+  top: -13vh;
   left: 10%;
   z-index: 100;
   background-color: transparent;
@@ -788,7 +788,7 @@ p.contact {
   }
 
   a.music {
-    top: -80vh;
+    top: -78vh;
     left: 20vw;
   }
 
