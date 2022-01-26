@@ -1,6 +1,5 @@
 
 //-----> $PLACING MÓVIL
-
 //-----> NAV <-----\\
 /*top-bar*/
 .top-bar{
@@ -50,7 +49,7 @@ label{
 //-----> INTRO <-----\\
 h2.intro{
   position: relative;
-  top: 0%;
+  top: -5%;
   left: 1%;
   background-color: transparent;
   z-index: 100;
@@ -70,7 +69,7 @@ div.foto-intro{
   position: relative;
   width: 70%;
   height: 40%;
-  top: -30%;
+  top: -35%;
   left: 10%;
   z-index: 99;
 }
@@ -82,20 +81,20 @@ p.intro{
 //-----> WEB <-----\\
 h3.web{
   position: relative;
-  top: 15%;
+  top: 0vh;
   left: 5%;
   background-color: transparent;
 }
 div.web{
   position: relative;
   max-width: 60%;
-  top: 13.5%;
+  top: -5vh;
   left: 20%;
   background-color: transparent;
 }
 a.web{
   position: relative;
-  top: 15vh;
+  top: -5vh;
   left: 20%;
   background-color: transparent;
 }
@@ -103,20 +102,20 @@ a.web{
 //-----> GRAPHIC <-----\\
 h3.graphic{
   position: relative;
-  top: 5%;
+  top: 0vh;
   left: 15%;
   background-color: transparent;
 }
 div.graphic{
   position: relative;
   max-width: 70%;
-  top: 3.5%;
+  top: -5vh;
   left: 5%;
   background-color: transparent;
 }
 a.graphic{
   position: relative;
-  top: 4vh;
+  top: -5vh;
   left: 5%;
   background-color: transparent;
 }
@@ -126,19 +125,19 @@ div.foto-music{
   position: relative;
   width: 85%;
   height: 50%;
-  top: 3%;
+  top: 3vh;
   left: -2%;
 }
 h3.music{
   position: relative;
-  top: -6%;
+  top: -12vh;
   left: 10%;
   z-index: 100;
   background-color: transparent;
 }
 a.music{
   position: relative;
-  top: -13vh;
+  top: -18vh;
   left: 10%;
   z-index: 100;
   background-color: transparent;
@@ -196,7 +195,7 @@ p.contact{
 }
 
 
-@media all and (min-width: 500px){
+@media all and (min-width: 750px){
   //-----> NAV <-----\\
   /*nav items
   
@@ -278,7 +277,7 @@ p.contact{
     }
 } 
 
-@media all and (min-width: 900px){
+@media all and (min-width: 1000px){
 
   //-----> NAV <-----\\
   /*nav items

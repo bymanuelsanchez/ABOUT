@@ -1,6 +1,5 @@
 
 //-----> $TEXT-STYLE
-
 html{
     font-family: 'Archivo', sans-serif;
   }
@@ -118,8 +117,7 @@ label{
 
 
 
-
-@media all and (min-width: 500px){
+@media all and (min-width: 750px){
   //-----> NAV <-----\\
   label.nav{
     padding-top: 1.5vh;
@@ -191,7 +189,7 @@ label{
   }
 }
 
-@media all and (min-width: 900px){
+@media all and (min-width: 1000px){
   //-----> NAV <-----\\
   h1{
     font-size: 20px;
