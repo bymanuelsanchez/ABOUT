@@ -1,20 +1,47 @@
-# ABOUT
-ESAT / Proyecto 1
+Programas in use: HTML with JS, CSS y SCSS
 
-9.12: Importar base codepen de scroll horizontal de wakkos.
+///////////////////////////////////////////////
 
-13.12: Faltan pisiciones, @media y hovers.
+INDEX:
+CSS / CSS file: style.css
+HTML / HTML file: index.html
+recursos / images in use
+SCSS / folders containing SCSS files divided by theme
+prepros.config / preprocessing configuration file
+README.md / this readme
 
-14.12: Comenzado la operación con la barra. Faltan posiciones, @media y hovers. Hover graphic preguntar por JS.
+SCSS FOLDER INDEX:
+atmosphere / web aesthetic
+    _img.scss / images
+    _mouse.scss / mouse efects like :hover, :checked, etc.
+    _placing.scss / position propoerties
+    _text-style / text style properties
+operation / web operation thorugh checkboxes 
+    _checkbox-operation.scss
+variable / declared variables
+    _variables.scss
+style.scss / to import scss file into css file
 
-15.12: cambiados los checkboxes por numeros con :hover pero no va el :checked idk, intentado poner el h1 y los check en linea mediante meterlos en un div deja de funcionar pero se alinea idk. Faltan posiciones, @media y hovers de graphic (ask JS).
+///////////////////////////////////////////////
 
-16.12: sass done!!! + placing móvil
+OPERATION CLASSES:
+The web operation is made throught checkboxes this require inputs, labels and sections with classes in common as: "radio", "radioX" (as in "r"adio1", "radio2", etc.), "nav", "input-sectionX", "sectionX" and "scroll-section".
 
-20.12: placing desk y mejoras de placing. cambio de foto music. Probelmas pricnipales poner en nav abajo + :hover de graphic, cursor de de web y pelota de contacto.
+SECTIONS CLASSES:
+Web contains 6 main sections: intro, web, graphic, music, skills and contact.
+Each one of them is a class for its own purposes (as in class=intro) so that you can refer to an element in a section by adding the class to the element. This workflow is usefull for placing, since the web has no extric composition, elements flow and overlap one into another and every section is different.
 
-21.12: reunion con wakkos - problema del nav y checked solucionado.JS hecho. Bolita hecha. Cursor hecho con tooltip. Trabajo aplazado para el 28 de enero.
+OTHER CLASSES:
+There also a class in refenre to the menu called "top-bar".
+Skills is a section within a grid for whats is used "studies-row" class.
+For mouse effects there especific classes such as "mail", made to change the hover color of only one link.
 
-26.12: top bar con fondo negro y abajo. arreglado el placing de desktop falta movil y hacer el mid. Hehco el smiley de  bouncer.
+///////////////////////////////////////////////
 
-3.1: @media 500px hecho, fallo de @media no coge el basico despues de 500px.
+@MEDIA
+
+*Text styles and placing are to be changed by @media for responsive purposes. Since we have text style and placing in two different SCSS files we have to include the same @media in both files.
+
+no @media: MOBILE
+@media all and (min-width: 750px): MID
+@media all and (min-width: 1000px): DESKTOP
