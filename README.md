@@ -1,4 +1,4 @@
-Programas in use: HTML with JS, CSS y SCSS
+Programs in use: HTML with JS, CSS y SCSS
 
 ///////////////////////////////////////////////
 
